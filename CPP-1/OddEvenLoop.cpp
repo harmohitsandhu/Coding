@@ -1,6 +1,5 @@
 #include<iostream>
 using namespace std;
-//under progress
 int main(){
     int o, n;
     cout<<"Welcome to Odd Even printer!\nPress 1 for odd numbers\nPress 2 for even numbers = ";
