@@ -1,0 +1,5 @@
+c=int(input("Enter temperature in Celcius °C = "))
+f=int(c*1.8+32)
+k=int(c+273.15)
+print("Temperature in Farenheit = ",f,"°F")
+print("Temperature in Kelvin = ",k,"°K")
