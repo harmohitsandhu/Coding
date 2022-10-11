@@ -12,7 +12,7 @@ int main(){
         while (o<=20)
         {
             cout<<o<<endl;
-            o=o+2;
+            o+=2;
         }
         
         break;
@@ -21,7 +21,7 @@ int main(){
         while (o<=20)
         {
             cout<<o<<endl;
-            o=o+2;
+            o+=2;
         }
         break;
     
