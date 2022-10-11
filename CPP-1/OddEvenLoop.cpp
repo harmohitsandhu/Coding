@@ -3,20 +3,26 @@ using namespace std;
 //under progress
 int main(){
     int o, n;
-    cout<<"Welcome to Odd Even printer!\nPress 1 for odd numbers\nPress 2 for even numbers"<<endl;
+    cout<<"Welcome to Odd Even printer!\nPress 1 for odd numbers\nPress 2 for even numbers = ";
     cin>>n;
-    o=1;
     switch (n)
     {
     case 1:
-        while (o<=10)
+        o=1;
+        while (o<=20)
         {
-            cout<<"Jatt"<<o+2<<endl;
+            cout<<o<<endl;
+            o=o+2;
         }
         
         break;
     case 2:
-        /* code */
+        o=0;
+        while (o<=20)
+        {
+            cout<<o<<endl;
+            o=o+2;
+        }
         break;
     
     default:
