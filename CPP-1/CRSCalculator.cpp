@@ -2,8 +2,8 @@
 using namespace std;
 int main(){
     int apc, c1, l, b;
-    /*apc operand short for "Area Perimeter Calculator" for switch
-    c1 operand for if statement
+    /*apc variable short for "Area Perimeter Calculator" for switch
+    c1 variable for if statement
     l operand for length, side and radius
     b operand for breadth*/
     cout<<"Welcome to Area and Perimeter Calculator!\nPress 1 for Rectangle\nPress 2 for Square\nPress 3 for Circle"<<endl;
