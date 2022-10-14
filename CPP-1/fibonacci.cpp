@@ -3,16 +3,16 @@ using std::cout;
 using std::endl;
 using std::cin;
 int main(){
-    int i,n,n1=0,n2=1,n3;
+    int num, first=0, second=1, next,i; // num means number input
     cout<<"Welcome to Fibonacci Series Calculator!\nEnter the number of terms = ";
-    cin>>n;
-    cout<<"Fibonacci Series: \n"<<n1<<" "<<n2<<" ";
-    for (i=3; i<=n; i++)
+    cin>>num;
+    cout<<"Fibonacci Series: \n";
+    for (i=0; i<num; i++)
     {
-        n3=n1+n2;
-        n1=n2;
-        n2=n3;
-        cout<<n3<<" ";
+        cout<<first<<"\n";// 0->1->1->2
+        next=first+second;// 0+1=1->1+1=2->1+2=3->2+3=5
+        first=second;// first=1->1->2->3
+        second=next;// second= 1->2->3->5
     }
     return 0;
 }
