@@ -11,6 +11,6 @@ int main (){
     cout<<"Enter the total number of values: ";
     cin>>tv;
     c=a+b;
-    cout<<"The average of these values is= "<<c/tv;
+    cout<<"The average of these values is = "<<c/tv;
     return 0;
 }
