@@ -2,7 +2,6 @@
 using std::cout;
 using std::cin;
 int fib(int n){
-    int f;
     if(n<=1)
     {
         return(n);
