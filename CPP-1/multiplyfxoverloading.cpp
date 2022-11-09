@@ -1,7 +1,7 @@
 #include<iostream>
 using std::cout;
 using std::cin;
-int fx(float,float);
+float fx(float,float);
 int main(){
     float n1,n2,mult;
     cout<<"Welcome to function overloading experiment!\nPlease enter the value of first number = ";
@@ -12,8 +12,8 @@ int main(){
     cout<<mult;
     return 0;
 }
-int fx(float x,float y){
-    int c;
+float fx(float x,float y){
+    float c;
     c=x*y;
     cout<<"Value is = ";
     return(c);
