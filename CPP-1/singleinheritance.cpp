@@ -10,7 +10,7 @@ class student
     void rd();
     void dp();
 };
-class marks
+class marks:public student
 {
     private:
     float phy, chem, bio, math,sum,tm;
@@ -27,11 +27,12 @@ void student::rd()
 }
 void student::dp()
 {
-    cout<<"Your roll no is "<<rollno;
-    cout<<"Your name is "<<a;
+    cout<<"\nYour roll no is "<<rollno;
+    cout<<"\nYour name is "<<a;
 }
 void marks::rd()
 {
+    student::rd();
     cout<<"Enter marks obtained in Physics = ";
     cin>>phy;
     cout<<"Enter marks obtained in Chemistry = ";
@@ -46,13 +47,13 @@ void marks::rd()
 }
 void marks::dp()
 {
+    student::dp();
     cout<<"Marks obtained in Physics, Chemistry, Biology and Math are  =\n"<<phy<<"\n"<<chem<<"\n"<<bio<<"\n"<<math<<"\n";
     cout<<"Percentage is "<<sum;
 }
 int main()
 {
     marks m;
-    student s;
     cout<<"Enter the following information\n";
     m.rd();
     m.dp();
